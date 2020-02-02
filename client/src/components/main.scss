@@ -1,0 +1,118 @@
+.main {
+  background: black url("background.jpeg") no-repeat center center;
+  background-size: cover;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headers {
+  color: white;
+  margin-top: 2%;
+}
+
+.theButton {
+  display: flex;
+  justify-content: center;
+  background: black;
+  padding-bottom: 10px;
+}
+
+.divs {
+  margin-top: 15%;
+  width: 100%;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  background: black;
+}
+
+.picA,
+.picB,
+.form {
+  background-color: black;
+  padding: 10px;
+  width: 382px;
+  height: 253px;
+  background-repeat: no-repeat;
+}
+
+.picA {
+  background: url("secpic.jpeg");
+  margin-bottom: 45px;
+}
+
+.picB {
+  background: url("firpic.jpeg");
+  order: 2;
+}
+
+.form {
+  padding: 0px;
+  width: 413px;
+  order: 2;
+}
+
+@media (max-width: 768px) {
+  .form {
+    order: 3;
+  }
+}
+
+h6 {
+  text-align: center;
+}
+
+.arcaffe {
+  margin-top: 0.5%;
+  width: 219px;
+  min-height: 68px;
+  background-image: url("‏‏arcaffe.jpeg");
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h6 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+input {
+  width: 88%;
+  margin: 4%;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: end;
+  padding: 10px;
+  margin-left: 6%;
+}
+
+::placeholder {
+  color: white;
+}
+
+span {
+  color: white;
+  text-align: center;
+}
+
+.error {
+  background: black;
+}
+
+form {
+  background: black;
+}
+
+button {
+  width: 150px;
+  height: 36px;
+  background: black;
+  color: white;
+}
