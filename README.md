@@ -1,4 +1,4 @@
-## Arcaffe Site 😷
+## Arcaffe Site 👨🏿‍🤝‍👨🏻
 
 👉🏽 [Demo](https://arcaffe-event.herokuapp.com/)
 
